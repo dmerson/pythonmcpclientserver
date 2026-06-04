@@ -104,6 +104,15 @@ Edit the `mcp_server.py` file to add new documents to the `docs` dictionary.
 To fully implement the MCP features:
 
 1. Complete the TODOs in `mcp_server.py`
+To run the MCP server 
+$env:DANGEROUSLY_OMIT_AUTH="true"; mcp dev mcp_server.py
+when the browser comes up use:
+STDIO
+Python
+"c:\Claude Cowork Projects\try3mcp\mcp_server.py" (full path to file)
+Click connect.
+
+
 2. Implement the missing functionality in `mcp_client.py`
 
 ### Linting and Typing Check
