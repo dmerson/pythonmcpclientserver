@@ -93,19 +93,8 @@ Use the / prefix to execute commands defined in the MCP server:
 
 Commands will auto-complete when you press Tab.
 
-## Development
-
-### Adding New Documents
-
-Edit the `mcp_server.py` file to add new documents to the `docs` dictionary.
-
-### Implementing MCP Features
-
-To fully implement the MCP features:
-
-1. Complete the TODOs in `mcp_server.py`
-To run the MCP server 
-$env:DANGEROUSLY_OMIT_AUTH="true"; mcp dev mcp_server.py
+## Run the MCP Server
+Run the following command: $env:DANGEROUSLY_OMIT_AUTH="true"; mcp dev mcp_server.py
 when the browser comes up use:
 STDIO
 Python
